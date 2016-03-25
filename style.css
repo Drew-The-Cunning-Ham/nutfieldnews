@@ -1,0 +1,129 @@
+/*TABLE OF CONTENTS
+ * CH01.0 - Resets
+ * CH02.0 - Typography
+ * CH03.0 - Page Structure General
+ * CH03.3 - Page Structure Specific
+ * CH03.6 - Page Structure Elements
+ * CH04.0 - Header & Navigation
+ * CH04.5 - Header Elements
+ * CH05.0 - Sidebar
+ * CH05.5 - Sidebar Elements
+ * CH06.0 - Posts
+ * CH07.0 - Footer
+*/
+/* 1.0 - Resets */
+body{
+	height: 100%;
+}
+
+/* 3.0 - Page Structure General */
+#container{ 
+	width: 1020px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+#header{
+	width: 100%;
+	height: 15em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	position: relative;
+}
+.content{
+
+
+}
+
+/* 3.3 - Page Structure Specifics */
+#front-page-carousel{
+	width: 90%;
+	background-color: black;
+	height: 25em;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+#myCarousel{
+	height: 100%;
+}
+.carousel-inner > .item {
+  top: 0;
+height: 100%;
+  left: 0;
+  width: 100%;
+  display: block;
+  position: absolute;
+}
+#myCarousel .item #image{
+	height: 100%;
+	width: 100%;}
+#myCarousel .item #image img{
+	height: 100%;
+	width: 100%;
+}
+#myCarousel .item .excerpt{
+	padding: .5em;
+	position: absolute;
+	background-color: black;
+	opacity: .6;
+	color: white;
+	right: 25%;
+	top:5em;
+	width: 35em;}
+.post-feed{
+	width: 100%;
+	height: auto;
+	margin-top: 2em;
+}
+.post-feed .post{
+	float: left;
+	margin-left: .5em;
+	margin-right: .5em;
+	margin-bottom: 1em;
+}
+.post-feed .post h1{
+	text-align: center;
+}
+.post-feed .post img{
+	width: 100%;
+}
+#header-nav{
+	background-color: #bf4040;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	height: 15%;
+}
+#header-top{
+	height: 85%;
+}
+/* 3.6 - Page Structure Elements */
+#header-nav h3{
+	margin: 0;
+}
+#header-top img{
+	height: 100% !important;
+	width: 100% !important;
+}
+#header-nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Slabo 27px', serif;
+	font-size: 20px;
+	padding-left: 10px;
+	
+}
+#header-nav ul li a:hover{
+	background-color:#808080;
+}
+
+#header-nav ul li{
+	display: inline;
+}
+
+#header-nav ul {
+	list-style-type: none;
+	
+}
