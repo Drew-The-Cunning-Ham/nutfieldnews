@@ -56,20 +56,4 @@
 </div>
 <script>
 $('.item:first').addClass('active');
-var arr = [];
-var r = 0
-$('.post').each(function(index){
-if(index%4 == 0){
-index = 0;
-r += 1;
-}
-arr[r][index] = this;
-})
-for(row in arr){
-	console.log("row");
-	for( p in row){
-		console.log("p");
-		console.log(p.className);
-	}
-}
 </script>

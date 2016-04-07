@@ -7,7 +7,7 @@
  * CH04.0 - Header & Navigation
  * CH04.5 - Header Elements
  * CH05.0 - Sidebar
- * CH05.5 - Sidebar Elements
+ * CH05.5 - Sidebar Elements 
  * CH06.0 - Posts
  * CH07.0 - Footer
 */
@@ -76,12 +76,35 @@ height: 100%;
 	width: 100%;
 	height: auto;
 	margin-top: 2em;
+	text-align: center;
 }
 .post-feed .post{
-	float: left;
+	display: inline-block;
 	margin-left: .5em;
 	margin-right: .5em;
 	margin-bottom: 1em;
+	padding: .2em;
+	position: relative;
+}
+.post-feed .post .post-right{
+	float: right;
+	width: 50%;
+}
+.post-feed .post .post-left{
+	float: left;
+	width: 50%;
+}
+.post-feed .post .post-content{
+	width: 100%;
+	height: auto;
+}
+.post-feed .post .post-bottom{
+	width: 100%;
+	text-align: center;
+}
+.post-feed .post .post-top{
+	width: 100%;
+	top: 0;
 }
 .post-feed .post h1{
 	text-align: center;
@@ -113,7 +136,7 @@ height: 100%;
 	font-family: 'Slabo 27px', serif;
 	font-size: 20px;
 	padding-left: 10px;
-	
+	padding-right: 10px;
 }
 #header-nav ul li a:hover{
 	background-color:#808080;
@@ -126,4 +149,10 @@ height: 100%;
 #header-nav ul {
 	list-style-type: none;
 	
+}
+
+/* 4.0 */
+.archive-header{
+	text-align: center;
+	height: 2em;
 }
